@@ -1,4 +1,5 @@
-(function (angular, hsWechatDirectives) {
+'use strict';
+(function (angular) {
 
     /**
      * @ngdoc directive
@@ -62,4 +63,4 @@
     }
 
     angular.module('jf.plugins.motion', []).directive('motion', MotionDirective);
-})(angular, hsWechatDirectives);
+})(angular);
